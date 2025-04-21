@@ -2,32 +2,47 @@
 <html lang="ms">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ahmadiah Idrisiah</title>
   <style>
     body {
       font-family: sans-serif;
       text-align: center;
       background-color: #f0f0f0;
-      padding-top: 50px;
+      padding: 20px;
+      margin: 0;
     }
+
     h1 {
       margin-bottom: 40px;
+      font-size: 24px;
     }
+
     .btn {
       display: block;
-      margin: 20px auto;
-      padding: 15px 30px;
-      font-size: 18px;
+      margin: 15px auto;
+      padding: 15px 20px;
+      font-size: 16px;
       background-color: #4CAF50;
       color: white;
       border: none;
       border-radius: 10px;
       cursor: pointer;
       text-decoration: none;
-      width: 250px;
+      max-width: 90%;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease;
     }
+
     .btn:hover {
       background-color: #45a049;
+    }
+
+    @media (min-width: 600px) {
+      .btn {
+        font-size: 18px;
+        max-width: 300px;
+      }
     }
   </style>
 </head>
